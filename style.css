@@ -1,0 +1,725 @@
+.header{
+background-color: rgb(123, 230, 230);
+position: relative;
+top: -10px;
+left: -10px;
+width: 102%;
+height: 75px;
+position: fixed;
+padding: 0;
+margin: 0;
+z-index: 1;
+
+}
+/* html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+} */
+body{
+    height: 10%;
+    width:100% ;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#items{
+    background-color: azure;
+    height: 968px;
+    width: 100%;
+
+}
+/* .items{
+    width: 50%;
+    position: static;
+} */
+#s1 {
+    background-color: rgb(22, 227, 227);
+    position: relative;
+    top: -20px;
+    left: 258px;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 0;
+    border-color: rgb(68, 88, 219);
+    border-style: solid;
+}
+#l1 {
+    background-color: rgb(22, 227, 227);
+    position: relative;
+    top: -20px;
+    left: 107px;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 0px;
+    border-color: rgb(68, 88, 219);
+    border-style: solid;
+}
+
+#logo{
+    position: relative;
+    top: 8px;
+    left: 114px;
+    height: 65px;
+    width: 115px;
+    padding: 0;
+    margin: 0;
+
+
+}
+#searchbar{
+    position: relative;
+    right: -283px;
+    top: -21px;
+    border-radius: 20px;
+    height: 32px;
+    width: 470px;
+    padding: 0;
+    margin: 0;
+    border-color: rgb(68, 88, 219);
+    border-style: solid;
+
+}
+#search{
+    position: relative;
+    top: -19px;
+    right: 176px;
+    padding: 0;
+    margin: 0;
+
+}
+#mic{
+    position: relative;
+    left: 101px;
+    top: -19px;
+    padding: 0;
+    margin: 0;
+}
+#camera{
+    position: relative;
+    left: 219px;
+    top: -20px;
+    padding: 0;
+    margin: 0;
+}
+
+#cart{
+    position: relative;
+    top: -18px;
+    right: -450px;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    transition: .3s;
+    box-shadow: rgba(0,0 , 0, .5);
+}
+#cart:hover{
+    transform: translate(0,-5px);
+}
+
+#user{
+    position: relative;
+    top: -18px;
+    right: -535px;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    transition: .3s;
+    box-shadow: rgba(0,0 , 0, .5);
+
+}
+#user:hover{
+    transform: translate(0,-5px);
+}
+#info{
+    position: relative;
+    top: -18px;
+    right: -614px;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    transition: .3s;
+    box-shadow: rgba(0,0 , 0, .5);
+}
+#info:hover{
+    transform: translate(0,-5px);
+}
+
+#settings{
+    position: relative;
+    top: -18px;
+    right:-592px;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    transition: .3s;
+    box-shadow: rgba(0,0 , 0, .5);
+}
+#settings:hover{
+    transform: translate(0,-5px);
+}
+#menu{
+    position: relative;
+    top: -19px;
+    left:-700px;
+    padding: 0;
+    margin: 0;
+}
+
+#s2{
+    position: relative;
+    bottom: -500px;
+    right: -200px;
+    border-end-end-radius: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+#sugar_pic{
+    position: relative;
+    height: 174px;
+    width: 170px;
+    top: 90px;
+    left: 100px;
+    padding: 0;
+    margin: 0;
+}
+#sugar_name{
+    position: relative;
+    bottom: -130px;
+    left: -120px;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    
+}
+#sugar_dis{
+    position: relative;
+    bottom: 20px;
+    left: -115px;
+    font-size: 35px;
+    color: rgb(255, 77, 77);
+    padding: 0;
+    margin: 0;
+
+}
+#sugar_price{
+    position: relative;
+    top: -10px;
+    right: -300px;
+    font-size: 20px;
+    color: rgb(162, 154, 159);
+    padding: 0;
+    margin: 0;
+}
+#sugar_price2{
+    position: relative;
+    top: -45px;
+    right: -370px;
+    font-size: 41px;
+    color: rgb(162,154,159);
+    padding: 0;
+    margin: 0;
+}
+#sugar_price3{
+    position: relative;
+    top: -50px;
+    right: -270px;
+    font-size: 45px;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+#sugar_delivery{
+    position: relative;
+    top: 60px;
+    right: 79px;
+    color: rgba(12, 12, 12, 0.387);
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+#sugar_free_del{
+    position: relative;
+    top: 55px;
+    left: -52px;
+    font-size: 18px;
+    color: black;
+    padding: 0;
+    margin: 0;
+
+}
+#bs{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    top: 110px;
+    right: 266px;
+    background-color: rgb(245, 252, 20);
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+#cs{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    top: 110px;
+    right: 185px;
+    background-color: rgb(221, 221, 213);
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+
+
+
+
+#oil_image {
+    position: relative;
+    top: -296px;
+    left: 785px;
+    height: 338px;
+    width: 226px;
+    margin: 0;
+    padding: 0;
+}
+#oil_name {
+    position: relative;
+    bottom: 341px;
+    left: 542px;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+#oil_dis {
+    position: relative;
+    bottom: 489px;
+    left: 550px;
+    font-size: 35px;
+    color: rgb(255, 77, 77);
+    padding: 0;
+    margin: 0;
+}
+#oil_price {
+    position: relative;
+    top: -479px;
+    right: -1000px;
+    font-size: 20px;
+    color: rgb(162, 154, 159);
+    padding: 0;
+    margin: 0;
+    width: 12%;
+}
+#oil_price2 {
+    position: relative;
+    top: -514px;
+    right: -1065px;
+    font-size: 41px;
+    color: rgb(162,154,159);
+    padding: 0;
+    margin: 0;
+    width: 17%;
+}
+#oil_price3 {
+    position: relative;
+    top: -518px;
+    right: -977px;
+    font-size: 45px;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+#oil_delivery {
+    position: relative;
+    top: -410px;
+    right: -650px;
+    color: rgba(12, 12, 12, 0.387);
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+#oil_free_del {
+    position: relative;
+    top: -414px;
+    left: 672px;
+    font-size: 18px;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+#bo {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    bottom: 358px;
+    right: -445px;
+    background-color: rgb(245, 252, 20);
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+#co{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    top: -358px;
+    right: -545px;
+    background-color: rgb(221, 221, 213);
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+#choc_image {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    height: 458px;
+    width: 218px;
+    top: -403px;
+    right: -70px;
+}
+
+#choc_name {
+    position: relative;
+    bottom: 494px;
+    left: -130px;
+    font-size: 23px;
+    padding: 0;
+    margin: 0;
+}
+#choc_dis {
+    position: relative;
+    bottom: 655px;
+    left: -91px;
+    font-size: 35px;
+    color: rgb(255, 77, 77);
+    padding: 0;
+    margin: 0;
+}
+#choc_price {
+    position: relative;
+    top: -644px;
+    right: -300px;
+    font-size: 20px;
+    color: rgb(162, 154, 159);
+    padding: 0;
+    margin: 0;
+    width: 12%;
+
+}
+#choc_price2 {
+    position: relative;
+    top: -680px;
+    right: -369px;
+    font-size: 41px;
+    color: rgb(162,154,159);
+    padding: 0;
+    margin: 0;
+    width: 17%;
+
+}
+#choc_price3{
+    position: relative;
+    top: -676px;
+    right: -284px;
+    font-size: 45px;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+#choc_delivery {
+    position: relative;
+    top: -563px;
+    right: 188px;
+    color: rgba(12, 12, 12, 0.387);
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+#choc_free_del{
+    position: relative;
+    top: -566px;
+    left: -168px;
+    font-size: 18px;
+    color: black;
+    padding: 0;
+    margin: 0;
+
+}
+#few1 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: -812px;
+    right: 146px;
+    width: 20px;
+    color: red;
+}
+#bc {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    bottom: 511px;
+    right: 384px;
+    background-color: rgb(245, 252, 20);
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+#cc {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    bottom: 511px;
+    right: 294px;
+    background-color: rgb(221, 221, 213);
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+#df_image {
+    position: relative;
+    height: 174px;
+    width: 170px;
+    top: -840px;
+    left: 820px;
+    padding: 0;
+    margin: 0;
+    border-radius: 20px;
+}
+#df_name {
+    position: relative;
+    bottom: 802px;
+    left: 613px;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+#df_dis {
+    position: relative;
+    bottom: 961px;
+    left: 576px;
+    font-size: 35px;
+    color: rgb(255, 77, 77);
+    padding: 0;
+    margin: 0;
+}
+#df_price {
+    position: relative;
+    top: -951px;
+    right: -1031px;
+    font-size: 20px;
+    color: rgb(162, 154, 159);
+    padding: 0;
+    margin: 0;
+    width: 61px;
+}
+#df_price2 {
+    position: relative;
+    top: -987px;
+    right: -1099px;
+    font-size: 41px;
+    color: rgb(162,154,159);
+    padding: 0;
+    margin: 0;
+    width: 86px;
+}
+#df_price3 {
+    position: relative;
+    top: -982px;
+    right: -1010px;
+    font-size: 45px;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+#df_delivery{
+    position: relative;
+    top: -869px;
+    right: -643px;
+    color: rgba(12, 12, 12, 0.387);
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+#df_free_del{
+    position: relative;
+    top: -874px;
+    left: 660px;
+    font-size: 18px;
+    color: black;
+    padding: 0;
+    margin: 0;
+
+}
+#bdf{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    top: -817px;
+    right: -377px;
+    background-color: rgb(245, 252, 20);
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+#cdf{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    top: -817px;
+    right: -472px;
+    background-color: rgb(221, 221, 213);
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+#sgh3{
+    position: relative;
+    margin: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    padding: 0px;
+    top: 35px;
+    bottom: 0px;
+}
+#ftrmtr{
+    position: relative;
+    margin: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    padding: 0px;
+    top: 50px;
+    bottom: 0px;
+    color: rgb(115, 109, 109);
+}
+
+.about{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    row-gap: 10px;
+}
+#foot{
+    margin: 0px;
+    padding: 0px;
+    padding-right: 1135px;
+}
+
+.about{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    bottom: -140px;
+    left: 100px;
+}
+.help {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    bottom: 54px;
+    left: 436px;
+}
+.consumer_policy{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    bottom: 284px;
+    left: 770px;
+}
+.social{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    bottom: 513px;
+    left: 1090px;
+}
+#contact_us2 {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    bottom: 461px;
+    left: 102px;
+}
+#mail_us {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    bottom: 480px;
+    left: 300px;
+}
+#whatsapp_us {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    bottom: 516px;
+    left: 700px;
+}
+#call_us {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    bottom: 552px;
+    left: 1050px;
+}
+footer{
+    background-color: whitesmoke;
+}
+
+#hr1{
+    position: relative;
+    bottom: -90px;
+}
+#hr2{
+    position: relative;
+    bottom: 490px;
+}
+.fh{
+    color: rgb(187, 185, 181);
+    text-decoration: double;
+}
+
+#ftr{
+    height: 760px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
